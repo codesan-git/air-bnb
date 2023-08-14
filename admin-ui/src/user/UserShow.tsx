@@ -1,5 +1,4 @@
 import * as React from "react";
-
 import {
   Show,
   SimpleShowLayout,
@@ -13,7 +12,6 @@ import {
 
 import { USER_TITLE_FIELD } from "./UserTitle";
 import { LISTING_TITLE_FIELD } from "../listing/ListingTitle";
-
 export const UserShow = (props: ShowProps): React.ReactElement => {
   return (
     <Show {...props}>

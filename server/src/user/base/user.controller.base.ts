@@ -209,7 +209,6 @@ export class UserControllerBase {
       throw error;
     }
   }
-
   @common.UseInterceptors(AclFilterResponseInterceptor)
   @common.Get("/:id/listings")
   @ApiNestedQuery(ListingFindManyArgs)
